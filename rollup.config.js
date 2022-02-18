@@ -8,7 +8,7 @@ const packageJson = require('./package.json');
 export default [
   {
     input: 'src/index.ts',
-    external: ['mobx'],
+    external: ['mobx', 'mobx-react-lite', 'react'],
     output: [
       {
         file: packageJson.main,
