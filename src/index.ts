@@ -8,5 +8,4 @@ export type {
 } from './types';
 export { DefaultLogWriter } from './log-writer';
 export { configureMakeLoggable } from './global-config';
-export { useLoggableLocalObservable } from './use-loggable-local-observable';
 export { installMobxFormatters as applyFormatters } from './chrome-formatters';

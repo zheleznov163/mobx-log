@@ -19,9 +19,7 @@
     "lint": "tsdx lint",
     "prepare": "npm run build"
   },
-  "peerDependencies": {
-    "react": ">=16"
-  },
+  "peerDependencies": {},
   "prettier": {
     "singleQuote": true
   },
@@ -49,9 +47,7 @@
     "husky": "^7.0.2",
     "jest": "^27.4.5",
     "mobx": "^6.3.5",
-    "mobx-react-lite": "^3.2.1",
     "prettier": "^2.4.1",
-    "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.61.1",
     "rollup-plugin-dts": "^4.0.1",
